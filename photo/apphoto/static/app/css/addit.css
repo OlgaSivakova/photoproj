@@ -1,0 +1,61 @@
+#add  span {   display: flex;
+    width: 100%;
+    min-width: 1455px;
+    /* height: 50%; */
+    /* top: -735px; */
+    top: 233px;
+    /* left: -193px; */
+    position: absolute;
+    color: aliceblue;
+    font-size: 23px;
+    gap: 9px;
+    /* left: 2px; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+
+}
+
+.homebtn .btn{width: 100%;
+    min-width: 1455px;
+    
+    position: relative;
+    font-size: 20px;
+   transition: 0.5s;
+}
+.homebtn .btn:hover {background-color: black;color:white}
+
+#add span .sub { transition: 0.5s;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: #6e6d6d; color: white; border-radius: 9%;}
+#add span .sub:hover {  font-size: 1.2em; 
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr); color:rgb(51, 50, 50) }
+
+#add span .p1 {width: 40%; font-size: 15px; transition: 0.5s;}
+#add span .p1:hover {font-size: 1em; }
+#add span .p2 {width: 40%; font-size: 15px;transition: 0.5s;}
+#add span .p2:hover {font-size: 1em;width: 40%;  }
+#add span .p3 {width: 20%; transition: 0.5s;}
+#add span .p3:hover {font-size: 1em; }
+#add span .p4 {width: 40%; font-size: 15px;transition: 0.5s;}
+#add span .p4:hover {font-size: 1em; }
+#add span .p5 {width: 40%; font-size: 15px;transition: 0.5s;}
+#add span .p5:hover {font-size: 1em; }
+
+img{    width: 50%;
+    size: 20%;
+    background-position: right;
+    display: block;
+
+    margin-right: 0px;
+    margin-left: 930px;
+    padding-right: 0px;
+}

@@ -1,0 +1,50 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta name="viewport" content='width=1000' />
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel='stylesheet'  href="{% static 'app/css/allpost00.css'%}">
+  <link rel='stylesheet'  href="{% static 'app/css/addit.css'%}">
+  <link rel='stylesheet'  media="screen" href="{% static 'app/css/pricen.css'%}">
+  <link rel='stylesheet'  media="screen" href="{% static 'app/css/media.css'%}">
+  <link rel='stylesheet'  href="{% static 'app/css/slide.css'%}">
+  <link rel='stylesheet'  href="{% static 'app/css/qa.css'%}">
+  <link rel='stylesheet'  href="{% static 'app/css/mee.css'%}">
+  
+
+  
+  <title>Post</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+<header>
+    
+        <a href={%url "home"%} class='logo'>TimPH</a>
+        <nav>
+            <ul style=' text-decoration: none;'>
+               <li><a href={%url "home"%}  style=' text-decoration: none;'>Главная</a></li>
+               <li><a href={%url "me"%} style=' text-decoration: none;'>Обо мне</a></li>
+               <li><a href={%url "post"%} style=' text-decoration: none;'>Прайс-лист</a></li>
+               <li><a href={%url "slide"%} style=' text-decoration: none;'>Партфолио</a></li>
+               <li><a href={%url "add"%}  style=' text-decoration: none;'>Запись</a></li>
+               <li><a href={%url "qa"%} style=' text-decoration: none;'>Справка</a></li>
+
+               
+            </ul>
+        </nav>
+</header>
+       
+            
+    {%block content%}
+    {%endblock%}
+  
+  
+<script src="{% static 'app/css/javas.js'%}">
+    
+</script>
+</body>
+</html>

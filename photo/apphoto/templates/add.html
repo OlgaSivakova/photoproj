@@ -1,0 +1,42 @@
+{% extends 'basestyle.html' %}
+{%block  content%}
+<img style='width: 50%;
+size: 20%;
+background-position: right;
+display: block;
+
+margin-right: 0px;
+margin-left: 930px;
+padding-right: 0px;' src='../../media/uploads/2.jpg' alt="" />
+<div id='add'>
+  <form>
+    {%csrf_token%}
+    <span>
+      Фамилия и имя <p class='p1'>Фамилия и имя <br>
+        {{form.name}}</p>
+    <p class='p2'>Электронная почта <br>
+      {{form.email}}</p>
+    <p claas='p3'>Тип съёмки<br>
+      {{form.post_type}}</p>
+    <p class='p4'>Дата(дд.мм.гг) <br>
+      {{form.data}}</p>
+    <p class='p5'>Время(чч.мм) <br>
+      {{form.time}}</p>
+    
+      <button class = 'sub'type='submit' style='--clr: white; '><p>Отправить</p><i></i></button>
+    </span>   
+        
+      
+    
+
+  </form>
+</div>
+
+      <a class='homebtn' href="{%url 'home'%}">
+          <button class='btn'>На главную</button> 
+        </a>
+      </span>
+
+   
+
+{%endblock%}

@@ -1,0 +1,35 @@
+{% extends 'basestyle.html' %}
+{%block  content%}
+<div id='q'>
+    <ul>
+        <li>Как записаться на съёмку?</li>
+        <li><a href="#two">Как осуществляется оплата?</a></li>
+        <li>Сроки отдачи фото</li>
+        <li><a href="#four">Могу ли я использовать собственную ретушь</a></li>
+
+    </ul>
+</div>
+
+<div class='oneq'>
+    <h1>Как записаться на съёмку?</h1>       
+</div>
+<div class='twoq'>
+    <h1><a name="two">Как осуществляется оплата?</a></h1>       
+</div>
+<div class='threeq'>
+    <h1>Сроки отдачи фото</h1>       
+</div>
+<div class='fourq'>
+    <h1><a name="four">Могу ли я использовать собственную ретушьо</a></h1>       
+</div>
+
+<form method = 'POST' enctype = "multipart/form-data" >
+    {%csrf_token%}
+
+    <span>{{forms.titlename}}</span>
+    <span>{{forms.content}}</span>
+    <button type='submit' ><p>Отправить</p></button>
+</form>
+
+{%endblock%}
+

@@ -1,0 +1,44 @@
+#q {    /* width: 1654px; */
+    width: 100%;
+ 
+   
+    position: relative;
+    left: -3px;
+    justify-content: space-around;
+    font-size: 30px;
+    top: 179px;
+    }
+.oneq {position: relative;
+    top: 548px;
+    left: 740px;
+    font-size: 30px; width: 50%;}
+.twoq  {position: relative;
+
+    top: 2530px;
+    left: 740px;
+    font-size: 30px; width: 50%;}
+.threeq {position: relative;
+        top: 1072px;
+        left: 740px;
+        font-size: 30px; width: 50%;}
+.fourq {position: relative;
+    top: 1255px;
+    left: 740px;
+    font-size: 30px; width: 50%;}
+#q ul li {background-color: #fdfdfd;
+    width: 100%;
+    margin-top: 32px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;}
+#q ul{position: relative;
+    justify-content: space-between;
+    align-items: center;
+ 
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;}
+
+#q ul li:hover{transform:scale(1.1); transition: transform 1.5s; overflow: hidden;}
