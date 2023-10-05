@@ -3,15 +3,20 @@
 <html lang="ru">
 <head>
 <meta name="viewport" content='width=1000' />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel='stylesheet'  href="{% static 'app/css/allpost00.css'%}">
-  <link rel='stylesheet'  href="{% static 'app/css/addit.css'%}">
-  <link rel='stylesheet'  media="screen" href="{% static 'app/css/pricen.css'%}">
-  <link rel='stylesheet'  media="screen" href="{% static 'app/css/media.css'%}">
-  <link rel='stylesheet'  href="{% static 'app/css/slide.css'%}">
-  <link rel='stylesheet'  href="{% static 'app/css/qa.css'%}">
-  <link rel='stylesheet'  href="{% static 'app/css/mee.css'%}">
+  
+  <link rel='stylesheet'  media="screen" href="{% static 'app/css/price.css'%}">
+  <link rel='stylesheet'  href="{% static 'app/css/allposs.css'%}">
+
+  <link rel='stylesheet'  href="{% static 'app/css/additional.css'%}">
+  
+  <link rel='stylesheet'  media="screen" href="{% static 'app/css/medi.css'%}">
+  <link rel='stylesheet'  href="{% static 'app/css/sliderr.css'%}">
+  <link rel='stylesheet'  href="{% static 'app/css/qaa.css'%}">
+  <link rel='stylesheet'  href="{% static 'app/css/meee.css'%}">
+
   
 
   
@@ -24,6 +29,10 @@
 <header>
     
         <a href={%url "home"%} class='logo'>TimPH</a>
+        <a href='' class='inst'><img src='https://cdn-icons-png.flaticon.com/512/1384/1384031.png'></a>
+        <a href='' class='tg'><img src='https://cdn-icons-png.flaticon.com/512/739/739260.png'></a>
+        <a href='' class='vib'><img src='https://cdn-icons-png.flaticon.com/512/1384/1384023.png'></a>
+ 
         <nav>
             <ul style=' text-decoration: none;'>
                <li><a href={%url "home"%}  style=' text-decoration: none;'>Главная</a></li>
@@ -37,6 +46,7 @@
             </ul>
         </nav>
 </header>
+
        
             
     {%block content%}

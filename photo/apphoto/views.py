@@ -15,6 +15,8 @@ def me(request):
     return render(request, 'me.html')
 def new(request):
     return render(request, 'new.html')
+def thank(request):
+    return render(request, 'thank.html')
 def post(request):
     try:
         posts = Post.objects.all()
@@ -22,6 +24,7 @@ def post(request):
         posts = False
     return render(request, 'post.html', {'posts':posts})
 def client(request):
+    error = ''
     if request.method == "POST":
         form = ClientForm(request.POST, request.FILES)
         if form.is_valid():
@@ -30,13 +33,16 @@ def client(request):
             author.email = form.cleaned_data['email']
             author.data = form.cleaned_data['data']
             author.time = form.cleaned_data['time']
+            author.time02 = form.cleaned_data['time02']
             author.post_type = form.cleaned_data['post_type']
             
             author.save()
             return redirect('sucsess')
+        else:
+            error = form.errors
     else:
         form = ClientForm()
-    return render(request, 'add.html', {'form':form})
+    return render(request, 'add.html', {'form':form,'error': error})
 
 def QA(request):
     error = ''

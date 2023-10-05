@@ -1,29 +1,25 @@
 {% extends 'basestyle.html' %}
 {%block  content%}
-<img style='width: 50%;
-size: 20%;
-background-position: right;
-display: block;
-
-margin-right: 0px;
-margin-left: 930px;
-padding-right: 0px;' src='../../media/uploads/2.jpg' alt="" />
+<img id='alina' src='https://sun9-6.userapi.com/impg/nF-c1HZyKUMMeayV6tTjZaUMfl4Ellm9DjJjSA/CnC1XT3N50A.jpg?size=1440x2160&quality=95&sign=759f5af83ca480fa89b9fb6c8892e2fc&type=album' alt="" />
 <div id='add'>
-  <form>
+  <form method = 'POST' enctype = "multipart/form-data">
     {%csrf_token%}
     <span>
-      Фамилия и имя <p class='p1'>Фамилия и имя <br>
-        {{form.name}}</p>
-    <p class='p2'>Электронная почта <br>
+      <p class='p11'>Фамилия и имя </p><p class='p1'> 
+        {{form.name}} </p>
+      <p class='p12'>Электронная почта <p><p class='p2'> 
       {{form.email}}</p>
-    <p claas='p3'>Тип съёмки<br>
-      {{form.post_type}}</p>
-    <p class='p4'>Дата(дд.мм.гг) <br>
-      {{form.data}}</p>
-    <p class='p5'>Время(чч.мм) <br>
-      {{form.time}}</p>
+      <p class='p13'> Тип съёмки </p> <p claas='p3' style='margin-left: -359px; margin-top: 20px;'>
+      {{form.post_type}} </p>
+      <p class='p14'>Дата(дд/мм) </p><p class='p4'>
+      {{form.data}} </p>
+      <p class='p15'>Время начала съёмки(чч:мм) </p><p class='p5'>
+      {{form.time}} </p>
+      <p class='p15'>Время окончания съёмки(чч:мм) </p><p class='p5'>
+        {{form.time02}} </p>
+      <p class='errorp'> {{error}}</p>
     
-      <button class = 'sub'type='submit' style='--clr: white; '><p>Отправить</p><i></i></button>
+      <button class = 'sub'type='submit' style='--clr: white'><p style='color:black'>Отправить</p><i></i></button>
     </span>   
         
       

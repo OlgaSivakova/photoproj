@@ -28,6 +28,7 @@ urlpatterns = [
     path('sucsess/', photo_views.sucsess, name='sucsess'),
     path('me/', photo_views.me, name='me'),
     path('qa/', photo_views.QA, name='qa'),
+    path('thank/', photo_views.thank, name='thank')
   
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

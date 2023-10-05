@@ -4,21 +4,24 @@
 <head>
 <meta name="viewport" content='width=1000' />
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel='stylesheet'  href="{% static 'app/css/home.css'%}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel='stylesheet'  href="{% static 'app/css/homeeee.css'%}">
+  
   
   <title>Welcome to TimPH</title>
   
 </head>
 <body>
- 
-<a href = {%url 'add'%} style='--clr: white; text-decoration:none;'><span>ЗАПИСАТЬСЯ</span><i></i></a>
-<a href = {%url 'post'%} style='--clr: white; text-decoration:none; font-size: 2em;'><span>ГЛАВНАЯ</span><i></i></a>
+  <h1  id = 'hreff'>TimPH</h1>
+
+  <a href = {%url 'add'%}><span>ЗАПИСАТЬСЯ</span><i></i></a>
+  <a href = {%url 'post'%}><span>УСЛУГИ</span><i></i></a>
+
 
 <script>
   function OCB(element)
   {
-element.style.Color ='green';}
+element.style.Color ='green';}/d
 </script>   
 </body>
 </html>

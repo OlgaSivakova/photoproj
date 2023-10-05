@@ -1,0 +1,18 @@
+#mediadiv{
+    position: absolute;
+    width: 2400px;
+    height: 841px;    background-color: #009999;}
+.mediaimg{position: relative;width: 1000px;
+    left: 757px;}
+.mediah{position: relative;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;}
+#mediadiv p{    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;}
+@media screen and (max-width:1200px) and (min-width:900px) {
+        #mediadiv{
+             background-color: #000000;}
+    }
+    

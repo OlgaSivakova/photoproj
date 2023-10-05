@@ -1,0 +1,31 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta name="viewport" content='width=1000' />
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel='stylesheet'  href="{% static 'app/css/homes.css'%}">
+  
+  <title>Welcome to TimPH</title>
+  
+</head>
+<body>
+  <h1  style='position: relative;
+  top: 54px;
+  left: -11px;
+  font-size: 55px;'>Ваш вопрос отправлен!</h1>
+  <p>Ответ в письме придёт на указанный вами электронный адрес </p>
+
+<a href = {%url 'qa'%} style='--clr: white; text-decoration:none;font-size:20px;'><span>ВЕРНУТЬСЯ</span><i></i></a>
+<a href = {%url 'post'%} style='--clr: white; text-decoration:none; font-size: 3em;'><span>ГЛАВНАЯ</span><i></i></a>
+
+
+<script>
+  function OCB(element)
+  {
+element.style.Color ='green';}
+</script>   
+</body>
+</html>
+

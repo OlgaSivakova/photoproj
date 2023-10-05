@@ -1,0 +1,398 @@
+#q {    /* width: 1654px; */
+    width: 100%;
+ 
+   
+    position: relative;
+    left: -3px;
+    justify-content: space-around;
+    font-size: 30px;
+    top: 179px;
+    }
+
+#q a{text-decoration:none; color: black;font-family: initial;}
+#allqa a{text-decoration:none; color: black;}
+.oneq, .twoq, .threeq, .foureq, .fiveeq, .sixeq, .seveneq, .eighteq, .teneq, .nineeq {    position: relative;
+    top: 363px;
+    left: -22px;
+    font-size: 30px;
+    width: 100%;
+    margin-left: 20px;color: #747474c7;}
+#allqa  a {color: black;font-family: initial;}
+
+
+.oneq p{margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 55px;}
+.twoq  {top: 419px;
+    
+    }
+.twoq p, .threeq p, .foureq p, .oneq p, .fiveeq p, .sixeq p, .seveneq p, .eighteq p, .teneq p{margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 55px; font-family: initial;}
+
+
+.threeq {
+    top: 525px;
+    }
+
+.foureq {
+    top: 638px;
+  }
+.fiveeq {
+    top: 839px;
+    }
+.sixeq {
+    top: 946px;
+    }
+ .seveneq {
+    top: 1049px;
+    }
+.eighteq {
+    top:  1167px;
+    }
+.teneq {
+    top: 739px;
+    }
+.nineeq { top:  1200px;}
+#q ul li {background-color: #fdfdfd;
+    width: 100%;
+    margin-top: 32px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;transition: 0.5s;}
+#q ul{position: relative;
+    justify-content: space-between;
+    align-items: center;
+ 
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;}
+
+#q ul li:hover{transform:scale(1.1); transition: transform 1.5s; overflow: hidden;background: white;
+    box-shadow: 0 0 35px white; color:rgb(51, 50, 50)}
+.title {position: relative;}
+.cont {position: relative;
+    width:  717px;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column-reverse;
+    height: 120px;}
+#qu {position: relative;
+    top: 1211px;
+    left: 576px;;
+    width: 50%;
+    background: #d9d9d7;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    display: inline-block;
+    width: 803px; padding: 2%;}
+    .submt{    position: relative;
+        left: 132px;
+        width: 508px;
+        height: 33px;transition: 0.5s;}
+.submt:hover {font-size: 1.2em; 
+            background: var(--clr);
+            box-shadow: 0 0 35px var(--clr); color:rgb(51, 50, 50)}
+#allqa {    height: 3750px;
+    background-color: white;
+    margin-top: 174px;}
+    .tim {    position: relative;
+        top: 417px;
+        left: 831px;
+        width: 20%;
+        font-size: 85px;
+        font-family: initial;
+        color: #d9d9d9;}
+@media screen and (max-width:768px) and (min-width:488px){
+    #q ul {
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 60%;}
+        #allqa {
+            height: 3750px;
+            background-color: white;
+            margin-top: 174px;
+            height: 4627px;
+            width: 869px;
+        }
+        .hone, .ht, .hth, .hf, .hfi,.hs,.hse,.he, .hn{    
+            position: relative;
+            width: 100;
+            /* width: 150%; */
+            display: flex;
+            width: 547px;
+            left: -633px;
+            top: -52px;
+        }
+        .ht{width: 604px;}
+        .hf{   
+            left: -557px;}
+            .hfi{width: 604px;}
+            .hs{left: -591px;}
+            .hse{left: -591px; width: 610px;}
+            .hn{left:-546px;width: 610px;}
+            .he{left: -667px;
+                width: 698px;}
+            .ht{left: -729px;
+                top: -17px;}
+            #qu {
+                position: relative;
+                top: 1211px;
+                left: 28px;
+                width: 50%;
+                background: #d9d9d7;
+                border: 3px solid #fff;
+                border-radius: 10px;
+                display: inline-block;
+                width: 803px;
+                padding: 2%;
+            }
+            
+
+
+    .oneq{
+        top: 244px;
+        }}
+    @media screen and (max-width:747px) and (min-width:425px) {
+        #q ul {
+            position: relative;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            align-content: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 100%;
+            font-size: 50px;
+        }
+            #allqa {
+                height: 3750px;
+                background-color: white;
+                margin-top: 174px;
+                height: 4627px;
+            }
+            .hone, .ht, .hth, .hf, .hfi,.hs,.hse,.he, .hn{    
+                position: relative;
+                width: 100;
+                /* width: 150%; */
+                display: flex;
+                width: 547px;
+                left: -633px;
+                top: -52px;
+            }
+            .tim {
+                position: relative;
+                top: 312px;
+                left: 606px;
+                width: 20%;
+                font-size: 85px;
+                font-family: initial;
+                color: #d9d9d9;}
+            .ht{width: 604px;}
+            .hf{   
+                left: -557px;}
+                .hfi{width: 604px;}
+                .hs{left: -591px;}
+                .hse{left: -591px; width: 610px;}
+                .hn{left:-546px;width: 610px;}
+                .he{left: -667px;
+                    width: 698px;}
+                .ht{left: -638px;
+                    top: -17px;}
+                #qu {
+                    
+                        position: relative;
+                        top: 1211px;
+                        left: 28px;
+                        width: 50%;
+                        background: #d9d9d7;
+                        border: 3px solid #fff;
+                        border-radius: 10px;
+                        display: inline-block;
+                        width: 798px;
+                        padding: 2%;
+                        font-size: 30px;
+                }
+                
+    
+    
+        .oneq{
+            top: 244px;
+            }  
+            .submt {
+                position: relative;
+                left: 132px;
+                width: 508px;
+                height: 33px;
+                transition: 0.5s;
+                font-size: 30px;
+            }
+    }
+    @media screen and (max-width:425px) and (min-width:290px){#q ul {
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        font-size: 60px;
+    }
+        #allqa {
+            height: 3750px;
+            background-color: white;
+            margin-top: 174px;
+            height: 9842px;
+        }
+        .hone, .ht, .hth, .hf, .hfi,.hs,.hse,.he, .hn{    
+           
+           position: relative;
+            width: 100;
+            /* width: 150%; */
+            display: flex;
+            width: 691px;
+            left: -633px;
+            top: -52px;
+            
+        }
+        .tim {
+            position: relative;
+            top: 312px;
+            left: 606px;
+            width: 20%;
+            font-size: 85px;
+            font-family: initial;
+            color: #d9d9d9;}
+        .ht{width: 604px;}
+        .hf{   
+            left: -557px;}
+            .hfi{width: 604px;}
+            .hs{left: -591px;}
+            .hse{left: -591px; width: 610px;}
+            .hn{left:-546px;width: 610px;}
+            .he{left: -667px;
+                width: 698px;}
+            .ht{left: -638px;
+                top: -17px;}
+            #qu {
+               
+                    position: relative;
+                    top: 1211px;
+                    left: 28px;
+                    width: 50%;
+                    background: #d9d9d7;
+                    border: 3px solid #fff;
+                    border-radius: 10px;
+                    display: inline-block;
+                    width: 1251px;
+                    padding: 2%;
+                    font-size: 50px;
+                
+            }
+            
+
+
+    .oneq{
+        top: 244px;
+        }  
+        .oneq, .twoq, .threeq, .foureq, .fiveeq, .sixeq, .seveneq, .eighteq, .teneq, .nineeq {    position: relative;
+           
+            width: 90%; font-size: 50px;
+           }
+        .submt {
+            position: relative;
+            left: 317px;
+            width: 581px;
+            height: 63px;
+            transition: 0.5s;
+            font-size: 50px;
+        }
+        }
+        @media screen and (max-width:290px) and (min-width:150px){
+            #q ul {
+                position: relative;
+                justify-content: space-between;
+                align-items: center;
+                display: flex;
+                align-content: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                width: 100%;
+                font-size: 50px;
+            }
+        #allqa {
+            height: 3750px;
+            background-color: white;
+            margin-top: 174px;
+            height: 10554px;
+            width: 1150px;
+        }
+        .hone, .ht, .hth, .hf, .hfi,.hs,.hse,.he, .hn{    
+           
+            position: relative;
+             width: 100;
+             /* width: 150%; */
+             display: flex;
+             width: 691px;
+             left: -633px;
+             top: -52px;
+             
+         }
+         .tim {
+            position: relative;
+            top: 312px;
+            left: 425px;
+            width: 20%;
+            font-size: 85px;
+            font-family: initial;
+            color: #d9d9d9;
+        }
+         .ht{width: 604px;}
+         .hf{   
+             left: -557px;}
+             .hfi{width: 604px;}
+             .hs{left: -591px;}
+             .hse{left: -591px; width: 610px;}
+             .hn{left:-546px;width: 610px;}
+             .he{left: -667px;
+                 width: 698px;}
+             .ht{left: -638px;
+                 top: -17px;}
+                 #qu {
+                    position: relative;
+                    top: 1211px;
+                    left: 28px;
+                    width: 50%;
+                    background: #d9d9d7;
+                    border: 3px solid #fff;
+                    border-radius: 10px;
+                    display: inline-block;
+                    width: 1041px;
+                    padding: 2%;
+                    font-size: 50px;
+                }
+             
+ 
+     .oneq{
+         top: 244px;
+         }  
+         .oneq, .twoq, .threeq, .foureq, .fiveeq, .sixeq, .seveneq, .eighteq, .teneq, .nineeq {    position: relative;
+            
+             width: 90%; font-size: 50px;
+            }
+            .submt {
+                position: relative;
+                left: 60px;
+                width: 581px;
+                height: 63px;
+                transition: 0.5s;
+                font-size: 50px;
+            }}

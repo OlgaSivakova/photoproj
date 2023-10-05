@@ -1,0 +1,281 @@
+
+.me{    width: 50%;
+    size: 20%;
+    background-position: right;
+    display: block;     margin-left: -2px;
+
+ 
+}
+.meone{width: 50%;
+    display: flex;
+    position: relative;
+    top: -1165px;
+    background-color: white;
+    left: 45%;
+    padding: 19px; transition: transform 1.2s;}
+    .meone span p{font-size: 23px; font-family: 'Times New Roman', Times, serif;}
+    .metwo span p{font-size: 23px; font-family: 'Times New Roman', Times, serif;}
+    .methree span p{font-size: 23px; font-family: 'Times New Roman', Times, serif;}
+.metwo{    width: 50%;
+    display: flex;
+    position: relative;
+    top: -1027px;
+    background-color: white;
+    left: 45%;
+    padding: 19px;transition:transform 1.2s;}
+.methree{width: 50%;
+    display: flex;
+    position: relative;
+    top: -910px;
+    background-color: white;
+    left: 45%;
+    padding: 19px;transition:transform 1.2s;}
+    .mefour{width: 50%;
+        display: flex;
+        position: relative;
+        top: -836px;
+        background-color: white;
+        left: 45%;
+        padding: 19px; ;transition:transform 1.2s;}
+.icon {position: absolute;
+    display: flex;
+    padding: 2%;
+    flex-wrap: wrap;
+    width: -11px;
+    /* width: 50%; */
+    /* height: 50%; */
+    /* align-content: flex-start; */
+    top: 1006px;
+    left: 587px;
+    flex-direction: column;}
+.icon .inst01, .tg01, .vib01{width: 126px;
+    position: relative;
+    /* left: 20px; */
+
+    margin: 15%;
+    left: -818px;}
+    .icon .inst01{width: 126px;
+        position: relative;
+        /* left: 20px; */
+    
+        margin: 15%;
+        left: -818px;}
+.mefour a{    text-decoration: none;
+    margin-left: 311px;
+    font-size: 25px;
+    color: black;
+}
+
+    .meone:hover {transform:scale(1.1);transition: transform 1.2s;}
+    .metwo:hover {transform:scale(1.1);transition: transform 1.2s;}
+    .methree:hover {transform:scale(1.1);transition: transform 1.2s;}
+    .mefour:hover{transform:scale(1.1);transition: transform 1.2s;}
+    @media screen and (max-width:1839px) and (min-width:768px){
+        .meone{
+            top: -1002px;
+            }
+            
+        .metwo{    
+            top: -902px;
+            }
+        .methree{
+            top: -802px;
+            }
+            .mefour{
+                top: -702px;
+                }
+    }  @media screen and (max-width:768px) and (min-width:488px){.meone{width: 60%;
+        display: flex;
+        position: relative;
+        top: 160px;
+        background-color: white;
+        left: 42%;
+        font-size: 15px;
+        padding: 19px;
+        transition: transform 1.2s;}
+        
+    .metwo{    width: 60%;
+        display: flex;
+        position: relative;
+        top: 183px;
+        background-color: white;
+        left: 42%;
+        font-size: 15px;
+        padding: 19px;transition:transform 1.2s;}
+    .methree{width: 60%;
+        display: flex;
+        position: relative;
+        top: 224px;
+        background-color: white;
+        left: 42%;
+        font-size: 15px;
+        padding: 19px;transition:transform 1.2s;}
+        .mefour{  width: 60%;
+            
+            display: flex;
+            position: relative;
+            top: 255px;
+            background-color: white;
+            left: 42%;
+        
+            transition: transform 1.2s;
+            font-size: 10px;}
+            .mefour a {
+                font-size: 15px;
+                color: black;
+                margin-left: 131px;
+            }
+
+            .meone .mone{font-size: 20px;}
+            .metwo .mtwo{font-size: 20px;}
+            .methree .mthree{font-size: 20px;}
+            
+.me{    width: 70%;
+    size: 20%;
+    background-position: right;
+    display: block;
+    position: absolute;
+    margin-left: -2px;
+    top: 20px;
+    margin-top: 138px;
+
+ 
+}
+
+    }
+    @media screen and (max-width:519px) and (min-width:488px){
+        .meone{width: 85%;
+       
+        left: 50%;
+        }
+        
+    .metwo{    width: 85%;
+       
+        left: 50%;}
+    .methree{width: 85%;
+       
+        left: 50%;}
+        .mefour{  width: 85%;
+       
+            left: 50%;}
+            .mefour a {
+                font-size: 15px;
+                color: black;
+                margin-left: 131px;
+            }
+            .me {
+                width: 120%;
+                size: 20%;
+                background-position: right;
+                display: block;
+                position: absolute;
+                margin-left: -157px;
+                top: 20px;
+                margin-top: 131px;
+            }}
+@media screen and (max-width:488px) and (min-width:150px){
+                .meone{width: 60%;
+                    
+                    top: 160px;
+                   
+                    left: 40%;
+                    font-size: 15px;
+                    }
+                    
+                .metwo{    width: 60%;
+                  
+                    top: 183px;
+                   
+                    left: 40%;
+                    font-size: 15px;
+                   }
+                .methree{width: 60%;
+                   
+                    top: 224px;
+                    
+                    left: 40%;
+                    font-size: 15px;
+                    }
+                    .mefour{  width: 60%;
+                        
+                        
+                        top: 255px;
+                       
+                        left: 40%;
+                    
+                       
+                        font-size: 10px;}
+                        .mefour a {
+                            font-size: 15px;
+                            color: black;
+                            margin-left: 131px;
+                        }
+            
+                        .meone .mone{font-size: 20px;}
+                        .metwo .mtwo{font-size: 20px;}
+                        .methree .mthree{font-size: 20px;}
+                        
+                        .me {
+                            width: 70%;
+                            size: 20%;
+                            background-position: right;
+                            display: block;
+                            position: absolute;
+                            margin-left: -105px;
+                            top: 20px;
+                            margin-top: 138px;
+                        }
+            }
+@media screen and (max-width:389px) and (min-width:150px){
+    .meone{width: 60%;
+                    
+        top: 193px;
+       
+        left: 40%;
+        font-size: 25px;
+        }
+        
+    .metwo{    width: 60%;
+      
+        top: 274px;
+       
+        left: 40%;
+        font-size: 25px;
+       }
+    .methree{width: 60%;
+       
+        top: 381px;
+        
+        left: 40%;
+        font-size: 25px;
+        }
+        .mefour{  width: 60%;
+            
+            
+            top: 413px;
+           
+            left: 40%;
+        
+           
+            font-size: 10px;}
+            .mefour a {
+                font-size: 25px;
+                color: black;
+                margin-left: 131px;
+            }
+
+            .meone .mone{font-size: 29px;}
+            .metwo .mtwo{font-size: 29px;}
+            .methree .mthree{font-size: 29px;}
+            
+            .me {
+                width: 125%;
+                size: 20%;
+                background-position: right;
+                display: block;
+                position: absolute;
+                margin-left: -360px;
+                top: 20px;
+                margin-top: 180px;
+            }
+}
