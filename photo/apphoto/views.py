@@ -1,6 +1,8 @@
 from django.shortcuts import render, HttpResponse, redirect
 from .models import Author, QA
 from.forms import ClientForm, QAF
+# from django.core.mail import EmailMultiAlternatives
+# from django.core.mail import send_mail
 
 # Create your views here.
 def home(request):
@@ -24,7 +26,6 @@ def post(request):
         posts = False
     return render(request, 'post.html', {'posts':posts})
 def client(request):
-    error = ''
     if request.method == "POST":
         form = ClientForm(request.POST, request.FILES)
         if form.is_valid():
@@ -37,12 +38,13 @@ def client(request):
             author.post_type = form.cleaned_data['post_type']
             
             author.save()
-            return redirect('sucsess')
-        else:
-            error = form.errors
+            # msg = EmailMultiAlternatives(subject='dfdfd', to = ['olga.siv.99@gmail.com',])
+            # send_mail('fdsfd', 'fdsfdfs', 'olga.sivakova.1999@mail.ru', [author.email], fail_silently = False)
+            return redirect('/home')
+        
     else:
         form = ClientForm()
-    return render(request, 'add.html', {'form':form,'error': error})
+    return render(request, 'add.html', {'form':form})
 
 def QA(request):
     error = ''
